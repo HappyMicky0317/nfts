@@ -1,0 +1,33 @@
+{
+    "name": "interep-nfts-app",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "parcel serve --open --no-cache src/index.html",
+        "build": "parcel build --public-url https://nft.interep.link src/index.html"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.8.1",
+        "@emotion/styled": "^11.8.1",
+        "@interep/identity": "^0.1.1",
+        "@interep/proof": "^0.4.2",
+        "@metamask/detect-provider": "^1.2.0",
+        "@mui/icons-material": "^5.4.4",
+        "@mui/lab": "^5.0.0-alpha.71",
+        "@mui/material": "^5.4.4",
+        "@mui/styles": "^5.4.4",
+        "ethers": "^5.4.6"
+    },
+    "devDependencies": {
+        "@parcel/transformer-less": "^2.3.2",
+        "assert": "^2.0.0",
+        "events": "^3.3.0",
+        "less": "^4.1.1",
+        "os-browserify": "^0.3.0",
+        "parcel": "^2.3.2",
+        "parcel-reporter-static-files-copy": "^1.3.4",
+        "path-browserify": "^1.0.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "stream-browserify": "^3.0.0"
+    }
+}
